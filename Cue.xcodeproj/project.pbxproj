@@ -138,7 +138,6 @@
 		24583B0028F3429400E6A186 /* Now Playing */ = {
 			isa = PBXGroup;
 			children = (
-				2475437A28F263B300284B92 /* NowPlayingModel.swift */,
 				24583B0128F342B000E6A186 /* NowPlayingView.swift */,
 				24583B0328F3477B00E6A186 /* NowPlayingIsland.swift */,
 			);
@@ -167,8 +166,10 @@
 				24583B0528F379E500E6A186 /* Info.plist */,
 				2475435428F2609400284B92 /* CueApp.swift */,
 				2475438428F26C9900284B92 /* Launch Screen.storyboard */,
+				248E9E7D296881D10074D44E /* View Models */,
 				24CB349828F5C60D00C20DB3 /* Models */,
 				2475437D28F2663600284B92 /* Extension */,
+				2475436428F2621000284B92 /* Tab */,
 				2475436228F2611000284B92 /* Views */,
 				2475435828F2609500284B92 /* Assets.xcassets */,
 				2475435A28F2609500284B92 /* Preview Content */,
@@ -187,11 +188,9 @@
 		2475436228F2611000284B92 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2475438E28F27EC100284B92 /* MusicModel.swift */,
 				24FD238A28F4F1C500990386 /* Animations */,
 				24583B0028F3429400E6A186 /* Now Playing */,
 				2475439228F2942E00284B92 /* Music Interest */,
-				2475436428F2621000284B92 /* Tab */,
 				2475436328F2620300284B92 /* Onboarding */,
 			);
 			path = Views;
@@ -200,7 +199,6 @@
 		2475436328F2620300284B92 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				2475436928F2624A00284B92 /* OnboardingViewModel.swift */,
 				2475436528F2622B00284B92 /* WelcomeView.swift */,
 				2475437128F2629C00284B92 /* Permission */,
 				2475436D28F2628500284B92 /* BeginCueView.swift */,
@@ -217,7 +215,8 @@
 				24A3B2CF28F7971900B7F93F /* User */,
 				2475437628F262F400284B92 /* Settings.swift */,
 			);
-			path = Tab;
+			name = Tab;
+			path = Views/Tab;
 			sourceTree = "<group>";
 		};
 		2475437128F2629C00284B92 /* Permission */ = {
@@ -251,6 +250,16 @@
 				2475436728F2623600284B92 /* MusicInterestView.swift */,
 			);
 			path = "Music Interest";
+			sourceTree = "<group>";
+		};
+		248E9E7D296881D10074D44E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				2475436928F2624A00284B92 /* OnboardingViewModel.swift */,
+				2475437A28F263B300284B92 /* NowPlayingModel.swift */,
+				2475438E28F27EC100284B92 /* MusicModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		24A3B2BF28F6196A00B7F93F /* Custom Search */ = {
